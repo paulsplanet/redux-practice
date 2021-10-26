@@ -1,5 +1,6 @@
 import React from "react";
 import CounterContainer from "./containers/CounterContainer";
+import TodosContainer from "./containers/TodosContainer";
 
 const App = () => {
 
@@ -9,6 +10,10 @@ const App = () => {
       <div>
         <h3>Counter</h3>
         <CounterContainer />
+      </div>
+      <div>
+        <h3>Todos</h3>
+        <TodosContainer />
       </div>
     </>
   )
